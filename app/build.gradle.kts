@@ -29,10 +29,16 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
 
+    implementation("androidx.navigation:navigation-ui:2.8.3")
+    implementation("androidx.navigation:navigation-fragment:2.8.3")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

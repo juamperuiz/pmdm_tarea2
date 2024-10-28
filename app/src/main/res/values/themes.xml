@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.PMDM_Tarea2" parent="Base.Theme.PMDM_Tarea2" />
+
+
+    <style name="Theme.MyApp" parent="Base.Theme.PMDM_Tarea2">
+        <item name="android:windowSplashScreenBackground">@drawable/ic_launcher_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+
 </resources>
