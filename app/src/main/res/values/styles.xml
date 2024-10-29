@@ -1,5 +1,27 @@
 <resources>
 
+    <style name="SplashStyleWelcome" parent="">
+        <item name="android:fontFamily">@font/dmsans_light</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="SplashStyleAppName" parent="">
+        <item name="android:fontFamily">@font/dmsans_bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="SplashStyleAutor" parent="">
+        <item name="android:fontFamily">@font/dmsans_light</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">6pt</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
     <style name="Widget.Theme.PMDM_Tarea2.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>
     </style>
@@ -18,4 +40,5 @@
         <item name="android:textSize">8pt</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
+
 </resources>
