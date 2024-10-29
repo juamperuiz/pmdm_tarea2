@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">PMDM_Tarea2</string>
+    <string name="app_name">Super Mario Bros App</string>
     <string name="welcome">Bienvenido</string>
+    <string name="textSplash">Super Mario Bros App</string>
     <string name="about">About</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

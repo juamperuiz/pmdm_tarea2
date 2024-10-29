@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Widget.Theme.PMDM_Tarea2.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.PMDM_Tarea2.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="textoWelcome" parent="">
+        <item name="android:textSize">14pt</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="textSplash" parent="">
+        <item name="android:textSize">8pt</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
