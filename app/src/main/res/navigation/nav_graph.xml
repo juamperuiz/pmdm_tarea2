@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/mainFragment"> <!-- Cambia esto al fragmento inicial de tu app -->
 
+    <!-- Definición del MainFragment -->
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.ruizrabadan.pmdm_tarea2.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/mainFragment"
+        android:name="dam.pmdm.videoclase2.GameListFragment"
+        android:label="Main Fragment" >
+
+        <!-- Agrega aquí las acciones y destinos que se pueden realizar desde el MainFragment si es necesario -->
+
+    </fragment>
+
+    <!-- Definición del GameDetailFragment -->
     <fragment
-        android:id="@+id/aboutFragment"
-        android:name="com.ruizrabadan.pmdm_tarea2.AboutFragment"
-        android:label="fragment_about"
-        tools:layout="@layout/fragment_about" />
+        android:id="@+id/gameDetailFragment"
+        android:name="dam.pmdm.videoclase2.GameDetailFragment"
+        android:label="Game Detail Fragment" />
 </navigation>
