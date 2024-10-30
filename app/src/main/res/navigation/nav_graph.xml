@@ -6,7 +6,7 @@
     <!-- Definición del MainFragment -->
     <fragment
         android:id="@+id/mainFragment"
-        android:name="dam.pmdm.videoclase2.GameListFragment"
+        android:name="com.ruizrabadan.pmdm_tarea2.CharacterListFragment"
         android:label="Main Fragment" >
 
         <!-- Agrega aquí las acciones y destinos que se pueden realizar desde el MainFragment si es necesario -->
@@ -15,7 +15,7 @@
 
     <!-- Definición del GameDetailFragment -->
     <fragment
-        android:id="@+id/gameDetailFragment"
-        android:name="dam.pmdm.videoclase2.GameDetailFragment"
+        android:id="@+id/characterDetailFragment"
+        android:name="com.ruizrabadan.pmdm_tarea2.CharacterDetailFragment"
         android:label="Game Detail Fragment" />
 </navigation>

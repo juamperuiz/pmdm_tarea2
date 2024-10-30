@@ -41,8 +41,8 @@ public class CharacterListFragment extends Fragment {
 
         // Configurar el RecyclerView
         adapter = new CharacterRecyclerViewAdapter(characters, getActivity());
-        binding.charactersRecyclerview.setLayoutManager(new LinearLayoutManager(getContext()));
-        binding.charactersRecyclerview.setAdapter(adapter);
+        binding.characterRecyclerview.setLayoutManager(new LinearLayoutManager(getContext()));
+        binding.characterRecyclerview.setAdapter(adapter);
 
 
     }
