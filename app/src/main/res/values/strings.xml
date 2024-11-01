@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Super Mario Bros App</string>
-    <string name="autor">Juan Pedro Ruiz Rabadán</string>
-    <string name="home_welcome">Bienvenidos</string>
-    <string name="about">About</string>
-
-    <string name="Characters">Personajes</string>
-    <string name="Details">Detalles</string>
-</resources>
